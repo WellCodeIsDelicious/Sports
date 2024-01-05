@@ -42,4 +42,4 @@ jobs:
       env:
         GN_TOKEN: ${{ secrets.GN_TOKEN }}
       run: |
-        git push https://$GN_TOKEN@github.com/bensmithgb53/Sports
+        git push https://$GN_TOKEN@github.com/bensmithgb53/Sports.git
