@@ -40,6 +40,6 @@ jobs:
         
     - name: Push changes using token
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GN_TOKEN: ${{ secrets.GN_TOKEN }}
       run: |
-        git push https://$GH_TOKEN@github.com/bensmithgb53/Sports.git
+        git push https://$GN_TOKEN@github.com/bensmithgb53/Sports.git
