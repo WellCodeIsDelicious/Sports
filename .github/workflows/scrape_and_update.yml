@@ -39,7 +39,7 @@ jobs:
         git commit -m "Auto-update .m3u8 file"
         
     - name: Push changes using token
+      run: |
+        git push https://github.com/bensmithgb53/Sports
       env:
         GN_TOKEN: ${{ secrets.GN_TOKEN }}
-      run: |
-        git push https://$GN_TOKEN@github.com/bensmithgb53/Sports.git
